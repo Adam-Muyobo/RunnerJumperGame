@@ -101,7 +101,7 @@ while True:
             high_score = score
 
         # Player
-        player_gravity += 1
+        player_gravity += 2
         player_rect.bottom += player_gravity
         if player_rect.bottom >= 300:
             player_rect.bottom = 300
